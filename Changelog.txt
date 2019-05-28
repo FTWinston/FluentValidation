@@ -5,6 +5,8 @@ Removed ResourceName from ValidationFailure
 Removed ResourceName and ResourceType from IStringSource.
 Removed SetCollectionValidator which was deprecated in 8.0
 Additional overload of OnAnyFailure that can receive a collection of validation failures
+Remove DisplayAttribute integration and reference to DataAnnotations.
+Default email validation mode now uses the same logic as ASP.NET Core. Previous regex behaviour is opt-in.
 
 8.5.1 - 2 November 2019
 Ensure lazily loaded calls to WithMessage can be used for client-side validation, provided they don't attempt to access model properties from inside the delegate (eg when using IStringLocalizer).
